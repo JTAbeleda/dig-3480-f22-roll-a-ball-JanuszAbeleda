@@ -1,0 +1,487 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663015255073691, "dur": 1596240, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015255074595, "dur": 12931, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015255087643, "dur": 40344, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015255128010, "dur": 694324, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015255822336, "dur": 837808, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015256660159, "dur": 9772, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015256938908, "dur": 10178745, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015256938929, "dur": 20967, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015256959898, "dur": 26301, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015256986203, "dur": 364399, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015257350603, "dur": 9757282, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015267107888, "dur": 9764, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015292335700, "dur": 1218434, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015292335902, "dur": 2469, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015292338372, "dur": 31552, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015292369927, "dur": 781278, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015293151207, "dur": 390723, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015293541933, "dur": 12200, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015395347535, "dur": 63988, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015395347558, "dur": 718, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015395348277, "dur": 53402, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015395401681, "dur": 9841, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015395532941, "dur": 448678, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015395532960, "dur": 31101, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015395564064, "dur": 407656, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015395971721, "dur": 9898, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015401089341, "dur": 451190, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015401089366, "dur": 10598, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015401099966, "dur": 427734, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015401527703, "dur": 12828, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015401541024, "dur": 37, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663015401122708, "dur":1379, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663015401124096, "dur":110, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663015401124251, "dur":555, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663015401124827, "dur":415, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663015401125243, "dur":369300, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663015401494545, "dur":1398, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663015401495943, "dur":65, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663015401496008, "dur":152, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663015401496342, "dur":1527, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663015401124724, "dur":522, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663015401125248, "dur":2475, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663015401127732, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663015401128848, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663015401131155, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1663015401132280, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663015401134724, "dur":99913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene.exe" }}
+,{ "pid":12345, "tid":1, "ts":1663015401234746, "dur":91173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663015401325980, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663015401326227, "dur":35225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663015401361622, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663015401361611, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663015401361794, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663015401361969, "dur":46131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663015401408177, "dur":26003, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\Data\\Plugins\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663015401408175, "dur":26006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663015401434976, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663015401436467, "dur":58080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663015401124836, "dur":419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663015401125255, "dur":2495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663015401127796, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663015401127751, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663015401149679, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663015401151576, "dur":526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663015401152149, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401155970, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401155967, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401156106, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663015401156198, "dur":6345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401162579, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401162577, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401162728, "dur":8487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401171295, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401171290, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401171428, "dur":601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663015401172038, "dur":5638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401177784, "dur":54954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401232829, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401232823, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401232906, "dur":2080, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663015401234994, "dur":95130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401330228, "dur":63935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401394287, "dur":33038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663015401427358, "dur":67223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663015401124807, "dur":443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663015401125251, "dur":2496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663015401127748, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1663015401136145, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1663015401138072, "dur":10749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401148961, "dur":9091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401158201, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401158193, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401158491, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663015401158579, "dur":7421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401166035, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401166033, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401166141, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663015401166243, "dur":9168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401175506, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663015401175582, "dur":94865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401270566, "dur":133810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401404430, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401404427, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663015401404519, "dur":89926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401124895, "dur":428, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663015401125323, "dur":2491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663015401127816, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1663015401159964, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1663015401163022, "dur":1194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401163020, "dur":1197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401164218, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663015401164406, "dur":10911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401175383, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401175381, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401175546, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663015401175607, "dur":57072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401232783, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401232778, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401232866, "dur":5575, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663015401238455, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401241332, "dur":34651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401276092, "dur":151053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663015401427241, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1663015401427238, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1663015401427430, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1663015401428660, "dur":65891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663015401124855, "dur":406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663015401125261, "dur":2491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663015401127753, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1663015401136338, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1663015401138028, "dur":7537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401145646, "dur":278, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401145642, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401145927, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663015401145997, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401149224, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401149222, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401149275, "dur":893, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663015401150178, "dur":4557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401154796, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401154792, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401154870, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663015401155222, "dur":7917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401163170, "dur":263, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401163169, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401163438, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663015401163797, "dur":8280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401172126, "dur":265, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401172123, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401172393, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663015401172630, "dur":5209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401177899, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663015401178175, "dur":136222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401314520, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401316177, "dur":70711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401387015, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401390360, "dur":45928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663015401436325, "dur":58221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663015401124875, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663015401125266, "dur":2461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663015401127737, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1663015401127730, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1663015401132270, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1663015401133158, "dur":29071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401162269, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401162267, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401162583, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663015401162750, "dur":7089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401169883, "dur":682, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401169880, "dur":687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401170569, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663015401170878, "dur":7791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401178742, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401178738, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401178817, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663015401179048, "dur":96854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401276028, "dur":51877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401327996, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401327990, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401328081, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663015401328255, "dur":61367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401389754, "dur":31365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663015401421213, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1663015401424029, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663015401424143, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663015401427321, "dur":67224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401124918, "dur":410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401125328, "dur":2411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401127740, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663015401141761, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663015401143937, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401145902, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401145899, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401145959, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401146076, "dur":2966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401149122, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401149193, "dur":5978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401155221, "dur":992, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401155218, "dur":997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401156215, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401156436, "dur":5206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401161737, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401161732, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401161980, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401162079, "dur":7178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401169313, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401169309, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401169835, "dur":978, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401170878, "dur":7815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401178778, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401178775, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401178841, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401179271, "dur":110827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401290240, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401292224, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401292217, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401292343, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401294036, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401296464, "dur":29011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401325578, "dur":21705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401347398, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401350883, "dur":35212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401386181, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401386176, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401386298, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663015401386355, "dur":47468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663015401433864, "dur":60684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401124961, "dur":374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401125335, "dur":2419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401127756, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1663015401144036, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1663015401145256, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401145254, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401145308, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401145438, "dur":3016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401148541, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401148652, "dur":5486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401154219, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401154419, "dur":4871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401159322, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401159320, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401159430, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401159575, "dur":6390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401165999, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401165997, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401166143, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401166246, "dur":8174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401174455, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401174452, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401174585, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401174844, "dur":56346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401231245, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401231300, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401231595, "dur":65287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401296914, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401296995, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401298745, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401298881, "dur":109848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663015401408802, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\StreamingAssets\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1663015401408799, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1663015401409035, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401409769, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1663015401411216, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1663015401413119, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663015401415766, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1663015401418663, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663015401420441, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1663015401422624, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663015401422757, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663015401422887, "dur":4771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663015401427691, "dur":66850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401124941, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401125332, "dur":2396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401127730, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1663015401129460, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1663015401130759, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1663015401130894, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1663015401131755, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1663015401133160, "dur":9000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401142232, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401142229, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401142335, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401144682, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401148261, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401148258, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401148325, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401148389, "dur":7515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401155962, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401155959, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401156101, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401156173, "dur":6630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401162866, "dur":1404, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401162864, "dur":1408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401164273, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401164401, "dur":6867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401171357, "dur":355, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401171356, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401171713, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401172035, "dur":58361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401230476, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401230472, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401230535, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401230658, "dur":117348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401348073, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401348133, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401351612, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401351603, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401351844, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401351999, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401354079, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401357429, "dur":36884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401394358, "dur":6012, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401394356, "dur":6016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401400431, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401402797, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663015401403006, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401405222, "dur":34390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663015401439643, "dur":54942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663015401125014, "dur":328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663015401125342, "dur":2402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663015401127784, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1663015401127746, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1663015401150982, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1663015401153159, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663015401153156, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663015401153210, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663015401153357, "dur":140676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663015401294148, "dur":65497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663015401359791, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663015401362302, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663015401362298, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663015401362371, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663015401362439, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663015401364259, "dur":63156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663015401427478, "dur":67103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663015401124987, "dur":351, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663015401125339, "dur":2397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663015401127787, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1663015401127738, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1663015401159335, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1663015401162534, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401162532, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401162634, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663015401162728, "dur":10095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401172864, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401172862, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401173018, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663015401173098, "dur":21527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401194748, "dur":39879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401234744, "dur":94365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401330929, "dur":205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401330913, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401331141, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663015401331259, "dur":16097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401347462, "dur":87750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663015401435253, "dur":59331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663015401125060, "dur":375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663015401125436, "dur":2381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663015401127846, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1663015401127819, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1663015401151675, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1663015401153742, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663015401154021, "dur":200951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663015401355065, "dur":7172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663015401362306, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663015401362302, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663015401362436, "dur":72274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663015401434758, "dur":59792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401125029, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401125345, "dur":2396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401127743, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1663015401137038, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1663015401138379, "dur":7860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401146314, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401146394, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401149591, "dur":575, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401150177, "dur":4769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401155005, "dur":445, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401155001, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401155452, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401155673, "dur":3964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401159672, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401159670, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401159766, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401159909, "dur":6492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401166451, "dur":1190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401166448, "dur":1195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401167644, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401167828, "dur":10603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401178501, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401178497, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401178573, "dur":466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401179103, "dur":96911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401276120, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401278494, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401280371, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401280362, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401280484, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401280598, "dur":12021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401292678, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401292674, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401292731, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401292851, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401295654, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401295650, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401295714, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401296038, "dur":109867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401405990, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401406193, "dur":8165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663015401414422, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1663015401414494, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663015401414585, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1663015401417310, "dur":730, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1663015401417308, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1663015401418099, "dur":14714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1663015401432853, "dur":61670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663015401125045, "dur":303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663015401125349, "dur":2384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663015401127733, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1663015401132451, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1663015401133248, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1663015401135756, "dur":5554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1663015401141356, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401141353, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401141480, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401144130, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401144128, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401144265, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663015401144442, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401147159, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663015401147284, "dur":4055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401151452, "dur":630, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663015401152145, "dur":4543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401156725, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401156723, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401156879, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663015401157026, "dur":7284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401164377, "dur":788, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401164373, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401165166, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663015401165247, "dur":8010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401173321, "dur":1026, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401173318, "dur":1030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401174348, "dur":461, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663015401174844, "dur":44186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401219260, "dur":128762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401348144, "dur":57210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401405494, "dur":31585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663015401437111, "dur":57433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663015401125080, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663015401125440, "dur":2290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663015401127782, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":15, "ts":1663015401127733, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1663015401127844, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663015401142502, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1663015401144421, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401148322, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401148318, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401148508, "dur":4481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401153140, "dur":107382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401260629, "dur":121573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401382270, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401382265, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401382385, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401384884, "dur":36626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663015401421619, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1663015401424271, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1663015401427747, "dur":66830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663015401125099, "dur":344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663015401125443, "dur":2313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663015401127791, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.15f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":16, "ts":1663015401127757, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1663015401150386, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1663015401151864, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jtabe\\OneDrive\\Desktop\\Unity Projects\\RollaBallTutorial\\dig-3480-f22-roll-a-ball-JanuszAbeleda\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663015401151861, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Sample Scene_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663015401151920, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663015401152038, "dur":158258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663015401310444, "dur":88346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663015401398929, "dur":42236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Sample Scene_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663015401441187, "dur":53363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663015401499143, "dur":1337, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663015401541102, "dur": 393, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663015401541015, "dur": 506, "ph": "X", "name": "Write chrome-trace events", "args": {} },
